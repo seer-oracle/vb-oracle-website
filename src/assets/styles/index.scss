@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./main.scss";
+@import "./navbar.scss";
+@import "./footer.scss";
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter"), url(../fonts/inter/Inter-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter-Black";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter-Black"), url(../fonts/inter/Inter-Black.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins"),
+    url(../fonts/poppins-regular/Poppins-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  src: local("SVN-Gilroy"),
+    url(../fonts/svn-gilroy/SVNGilroy-Light.otf) format("otf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"),
+    url(../fonts/montserrat/montserrat-regular.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  background: url("../images/main/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.riz-wrapper *:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.riz-wrapper *:before,
+*:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
